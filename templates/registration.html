@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <style>
+        body
+        {
+            display:block;
+        }
+        input
+        {
+            line-height: 20px;
+            width : 75%;
+            margin-bottom: 10%;
+            margin-left: 5%;
+        }
+        h1
+        {
+            margin-bottom: 3%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html"><img src="../static/Doc.png" class="logo"></a></li>
+                <li><a href = "./index.html">Home</a></li>
+                <li><a href = "./symptom_analysis.html">Symptom Analysis</a></li>
+                <li><a href = "./login.html">Login/Sign Up</a></li>
+                <li><a href = "./about_us.html">About me</a></li>
+                <li><a href = "./feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form>
+        <h1>Registration</h1>
+        <input type="text" id = "firstname" name = "firstname" placeholder="First name">
+
+        <input type="text" id = "lastname" name = "lastname" placeholder="Last name ">
+        
+        <input type="email" name="email" id="email" placeholder="E-mail">
+        
+        <input type="password" name="password" id="password" placeholder="Password">
+        
+        <input type="password" name="con_pass" id="con_pass" placeholder="Confirm Password">
+        
+        <input type="tel" name="contact_no" id="contact_no" placeholder="Contact number">
+        
+        <button type = "submit">Submit</button>
+    </form>
+</body>
+</html>
